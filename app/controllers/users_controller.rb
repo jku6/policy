@@ -9,7 +9,6 @@ class UsersController < ApplicationController
   def create
     @user = User.new(total_insurance)
 
-
     respond_to do |format|
       if @user.save
         format.html 

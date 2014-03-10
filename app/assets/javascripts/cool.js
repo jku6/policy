@@ -18,23 +18,4 @@ $(document).ready(function() {
       side: 'right'
     });
 
-
-    // $('#right-menu').sidr({
-    //   name: 'sidr-right',
-    //   side: 'right'
-    // });
-    // $('#existing-content-menu').sidr({
-    //   name: 'sidr-existing-content',
-    //   source: '#demoheader'
-    // });
-
-
-
-
-    // $( "body" ).on( "click", function() {
-    //   $('#sidr').display = "none";
-    //   console.log("test");
-    // });
-    // $('#sidr').on 
-    // $.sidr('close', 'sidr-main');
 });
