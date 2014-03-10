@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 gem 'ruby'
+gem 'rails_12factor'
 
 gem 'pg'
 gem 'pry-rails'
