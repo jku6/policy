@@ -5,6 +5,7 @@ ruby '2.1.0'
 gem 'rails', '4.0.2'
 
 gem 'rails_12factor'
+gem 'sass', '3.2.13'
 
 gem 'pg'
 gem 'pry-rails'
