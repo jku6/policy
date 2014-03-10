@@ -1,0 +1,4 @@
+- if @user.recommended_insurance >= 0
+  %h4= "You should get #{number_to_currency(@user.recommended_insurance)} in life insurance"
+- else
+  .notice

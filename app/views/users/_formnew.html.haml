@@ -1,0 +1,35 @@
+= form_for @user, remote: true do |f|
+  .row
+    .large-12.columns
+      .small-12.columns.first-line-form
+        %span.title Total Annual Income
+        %a{id: 'existing-content-menu', href: "#existing-content-menu"}
+          %i.accessibility.foundicon-question.question
+      .small-12.columns
+        %p.p-line $
+        .text-line= f.text_field :total_annual_income
+  .row
+    .large-12.columns
+      .small-12.columns.first-line-form
+        %span.title Savings
+        %a{id: 'existing-content-menu2', href: "#existing-content-menu2"}
+          %i.accessibility.foundicon-question.question
+      .small-12.columns
+        %p.p-line $
+        .text-line= f.text_field :current_savings
+  .row
+    .large-12.columns
+      .small-12.columns.first-line-form
+        %span.title Saved for Retirement?
+        %a{id: 'existing-content-menu3', href: "#existing-content-menu3"}
+          %i.accessibility.foundicon-question.question
+      .small-12.columns
+        %p.p-line $
+        .text-line= f.text_field :retirement_savings
+
+  .row
+    .large-12.columns.create-column
+      = f.submit "Create", :class => 'button secondary create-button'
+  .row
+    .large-12.columns
+      .insurance

@@ -1,0 +1,5 @@
+$('.insurance').empty();
+$('.insurance').append("<%=j render :partial => 'newobject', :locals => {:user => @user} %>");
+
+$(".notice").html("<%= escape_javascript(flash[:notice]) %>");  
+$(".notice").show(300);
